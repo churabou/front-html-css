@@ -1,0 +1,195 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  background-color: green;
+}
+
+#wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: 100%;
+}
+
+/* header */
+#header {
+  position: relative;
+  width: 100%;
+  height: 750px;
+  background: url("chura.jpg");
+}
+
+#header #logo {
+  position: absolute;
+  left: 50px;
+  padding: 10px;
+  height: 100px;
+  width: 400px;
+  background-color: aqua;
+  vertical-align: middle;
+}
+
+#header #logo p {
+  margin-top: 0px;
+  height: 80px;
+  width:400px;
+  background-color: violet;
+  line-height: 80px;
+}
+
+
+#header #menu1 {
+  position: absolute;
+  right: 50px;
+  width: 670px;
+  height: 100px;
+  background: red;
+}
+
+
+#header #menu1 ul a:hover {
+    color: gold;
+}
+
+#header #menu1 ul li {
+  display: inline-block;
+  line-height: 36px;
+  margin: 0 0 0 0;
+}
+
+#header #menu1 ul li a {
+  font-size: 16px;
+  display: block;
+  text-decoration: none;
+  text-transform: lowercase;
+  margin-top: 13px;
+  padding: 0 8px;
+  color: #eee;
+  width: 100px;
+  height: 40px;
+  border: 1px solid #ccc;
+}
+
+#header #screen {
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  height: 671px;
+  background-color: gold;
+}
+
+/* content1 */
+
+#content1 {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-color: orange;
+  text-align: center;
+}
+
+#content1 h1 {
+  padding-top: 30px;
+  text-align: center;
+  color: aqua;
+}
+
+#content1 p {
+  padding-top: 10px;
+  text-align: center;
+  color: aqua;
+}
+
+#content1 div {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 200px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  background-color: green;
+}
+
+#content1 div:hover {
+  opacity: 0.5;
+  background-color: green;
+}
+
+#content2 {
+  position:relative;
+  width: 100%;
+  height: 600px;
+  background-color: yellow;
+  text-align: center;
+}
+
+#content2 article {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+
+  width: 80%;
+  height: 500px;
+
+  display: block;
+  background-color: red;
+}
+
+#content2 article section {
+  position: relative;
+  margin-top: 0px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 300px;
+  height: 500px;
+  background-color: violet;
+}
+
+#content2 article section img {
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  width: 300px;
+  height: 250px;
+  background-color: green;
+}
+
+#content2 article section h3 {
+  position: absolute;
+  top: 250px;
+  width: 100%;
+  height: 30px;
+  background-color: pink;
+}
+
+#content2 article section p {
+  position: absolute;
+  top: 290px;
+  left: 5%;
+  height: 150px;
+  width: 90%;
+  background-color: blue;
+}
+
+#content2 article section:first-child	 {
+  margin-right: 10px;
+}
+
+#content2 article section:last-child	 {
+  margin-left: 10px;
+}
+
+
+
+/* footer */
+
+#footer {
+  width: 100%;
+  height: 300px;
+  background-color: orange;
+}
